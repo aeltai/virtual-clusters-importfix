@@ -4,9 +4,9 @@ plugin:
   enabled: true
   versionOverride: ""
   endpoint: >-
-    https://raw.githubusercontent.com/rancher/virtual-clusters-ui/gh-pages/extensions/virtual-clusters/1.1.0
+    https://raw.githubusercontent.com/aeltai/virtual-clusters-importfix/main/extensions/virtual-clusters/1.1.0
   compressedEndpoint: >-
-    https://raw.githubusercontent.com/rancher/virtual-clusters-ui/gh-pages/extensions/virtual-clusters/1.1.0.tgz
+    https://raw.githubusercontent.com/aeltai/virtual-clusters-importfix/main/extensions/virtual-clusters/1.1.0.tgz
   noCache: false
   noAuth: false
   metadata:
