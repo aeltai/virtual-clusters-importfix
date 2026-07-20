@@ -32,8 +32,7 @@ Fully-qualified `shell-image` values are used unchanged.
 
 Built from Virtual Clusters UI **1.1.0** with the import-job image fix applied.
 
-A Helm chart of the same fix is also published from the fork at
-[aeltai/virtual-clusters-ui](https://github.com/aeltai/virtual-clusters-ui) (`gh-pages`, version `1.1.1-importfix.1`).
+The Helm extension catalog lives in this same repository (on **`main`** and on **`gh-pages`**), version **`1.1.1-importfix.1`**.
 
 ## Prerequisite
 
@@ -43,13 +42,13 @@ Ensure `rancher/shell:v0.7.0` is available in your private registry (included in
 
 ### A — Extension repository (recommended)
 
-Install or update through the Rancher **Extensions** UI using the Helm chart repo on `gh-pages`.
+Install or update through the Rancher **Extensions** UI using this repo as the Helm chart repository.
 
 1. In Rancher: **Extensions → ⋮ → Manage Repositories → Create**
 2. Set:
    - **Target:** Git repository  
-   - **Git Repo URL:** `https://github.com/aeltai/virtual-clusters-ui`  
-   - **Branch:** `gh-pages`
+   - **Git Repo URL:** `https://github.com/aeltai/virtual-clusters-importfix`  
+   - **Branch:** `main` (or `gh-pages` — both carry the same catalog)
 3. Save, then open **Extensions → Available** / **Updates**
 4. Install or update **Virtual Clusters** to version **`1.1.1-importfix.1`**
 5. Create a test virtual cluster via **Cluster Management → Create → K3K**
